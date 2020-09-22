@@ -71,7 +71,7 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
             }
           })
         )
-        // .pipe(plugins.notify({
+         .pipe(plugins.notify({
         //   title: 'Pug Starter - CodeTap',
         //   message: 'Converting PUG into beautiful HTML'
         // }))
